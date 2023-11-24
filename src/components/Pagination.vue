@@ -1,17 +1,23 @@
-<script></script>
+<script>
+export default {
+  methods: {
+
+  }
+}
+</script>
 
 <template>
   <section class="pagination">
     <button
       class="pagination-button pagination-prev"
-      onclick="handleChangePrev()"
+      @click="handleChangePrev()"
     >
     &lt; Попередня
     </button>
-    
+
     <button
       class="pagination-button pagination-next "
-      onclick="handleChangeNext()" 
+      @click="handleChangeNext()" 
     >
       Наступна >
     </button>
